@@ -90,7 +90,7 @@ resource "aws_instance" "web" {
         "sudo apt-get -y update",
         "sudo apt-get -y install nginx",
         "sudo service nginx start",
-        "sudo rm -f /usr/share/nginx/www/*",
+        "sudo rm -f /usr/share/nginx/www/*"
         "sudo chmod 777 /usr/share/nginx/www/"
     ]
   }
