@@ -9,7 +9,7 @@ provider "aws" {
 # to the instances over SSH and HTTP
 resource "aws_security_group" "default" {
     name = "terraform_demo"
-    description = "Used for the demo of Terraform for RMS"
+    description = "Used for the demo of Terraform"
 
     # SSH access from anywhere
     ingress {
