@@ -1,0 +1,4 @@
+access_key = "Insert_access_key"
+secret_key = "Insert_secret_key"
+key_name = "terraform-demo"
+key_path = "path_to_decrypted_ssh_private_key"
